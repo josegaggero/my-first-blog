@@ -1,0 +1,60 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}"> 
+
+    <title>Registro Persona Nueva</title>
+</head>
+<body background="{% static 'img/Login2.jpg' %}" >
+  
+    <div class="container">
+       <form id="form" method="POST" class="form-control">
+           <div class="header">
+            <h2>Crear cuenta</h2>
+           </div>
+        
+         <input type="hidden" name="csrfmiddlewaretoken" value="N9gLLruLRO5ADWmQpe3CKKPVdZXrOb44mbn0N2by5iUtrAZVcMgALnpQE5bb2NzD">
+
+         
+         <br>
+         <div  class="form-control">
+           
+        <p><label class="nombre" for="id_nombre"> <ls> Nombre:</ls></label> <input  class="form-control"type="text" size="28" name="nombre"  maxlength="30" required id="id_nombre">
+          </input></p>
+        </div>                                                                                                                                                                         
+
+         
+
+         <div  class="form-control">
+         <p><label for="id_apellido">Apellido:</label> <input  class="form-control" type="text" size="28" name="apellido"  maxlength="30" required id="id_apellido">
+         </input></p>
+         </div>
+
+         
+
+         <div  class="form-control">
+         <p><label for="id_email">Email:</label> <input  class="form-control"type="text" size="28" name="email"  maxlength="25" required id="id_email">
+         </input></p>
+        </div>
+
+         
+
+         <div  class="form-control">
+         <p><label for="id_pais"> Pais:</label> <input  class="form-control"type="text" size="30" name="pais" " maxlength="15" required id="id_pais">
+         </input></p>
+        </div>
+
+        
+        <br>
+         
+             <button class="boton" type="submit">Registrar</button>
+       
+      </form>
+  
+    </div>  
+</body>
+</html>
