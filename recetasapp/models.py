@@ -19,3 +19,12 @@ class Usuarios(models.Model):
         return self.nombre_usuario + " " + self.clave 
 
 
+
+class Iniciar(models.Model):
+    mail = models.TextField(max_length=30)
+    clave = models.TextField(max_length=20)
+    def __str__(self) :
+        return self.mail + " " + self.clave 
+
+
+
