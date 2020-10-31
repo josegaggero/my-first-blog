@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Persona 
+from .models import Persona , Iniciar
 from .forms import FormularioPersona 
 from django.shortcuts import render_to_response
 
@@ -22,7 +22,23 @@ def persona_nueva(request) :
          formulario = FormularioPersona()
     return render(request, 'recetasapp/persona_nueva.html',{'form' : formulario})    
 
-    
+# Mi pagina web
+def iniciar(request):
+    return render(request, "recetasapp/paises.html")
+
+
+def chile(request):
+    return render(request, "recetasapp/chile.html")   
+
+def inicio(request):
+    return render(request, "recetasapp/index.html")
+# fin
+def formulario_inicio(request):
+    return render(request, "recetasapp/formulario_ingresar.html")
+
+
+
+
 def lista_registro(request) :
     lista1 = Usuarios.objects.all()
     return render(request, 'recetasapp/lista_registradas.html' ,{'lista1' : lista1})

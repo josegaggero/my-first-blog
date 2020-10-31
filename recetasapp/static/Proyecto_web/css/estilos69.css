@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-size: 140px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 8px;
+    color: #fff;
+    margin: 25px;
+    margin-top: -1cm;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #9ee5f1;
+    display: inline;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #6DC7D0;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #717070;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+}
+
+.hero_header {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 4px;
+}
+
+footer {
+    background-color: rgba(245, 245, 220, 0.438);
+    padding-top: 30px;
+    padding-bottom: 40PX;
+    width: 100%;
+}
+
+.sabor {
+    color: #fff;
+    margin: 7px 0;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.carousel {
+    min-height: 600px
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 400px;
+    height: 400px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 10;
+    padding-left: 0;
+    z-index: -1;
+    border-radius: 90px
+}
+
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #a8a6a5;
+    top: auto;
+}
+
+footer {
+    padding-bottom: 30px;
+}
+
+.footer_column {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+}
+
+footer .footer_column h2 {
+    color: #2aade9;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer .footer_column p {
+    color: #717070;
+    background-color: #B79B6A;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+footer .footer_column p {
+    padding-left: 30px;
+    padding-right: 50px;
+    text-align: justify;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button {
+    width: 200px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: all 0.3s linear;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #C4C4C4;
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #474747;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+}
+
+.footer_banner {
+    background-color: #5c5c5c;
+    padding-top: 60px;
+    padding-bottom: 60PX;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 340px;
+}
+
+footer {
+    display: inline-block;
+}
+
+.recetas {
+    text-align: center;
+}
+
+.caja {
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    color: #ffffff;
+    background: #f1d67daf;
+    width: 31rem;
+    height: 21rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.tituloo {
+    font-size: 48px;
+    text-align: center;
+    color: bisque;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+
+.hero_header {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    letter-spacing: 4px;
+}
+
+/* l_______________________________________ */
+
+/* ____________________________________*/
+
+/* ____________________________________*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main {
+    width: 100%;
+    display: flex;
+}
+header {
+    width: 5%;
+    height: 60px;
+    background: #84878a;
+    border-radius: 16px;
+}
+header span {
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    transition: all 300ms;
+    cursor: pointer;
+    position: relative;
+    top: 16px;
+    left: 10px;
+}
+header span:hover {
+    background: rgba(204, 199, 199, 0.301);
+    border-radius: 10px;
+}
+.content-menu {
+    width: 94px;
+    background: #000000d7;
+    transition: all 300ms;
+    height: 114vh;
+}
+.content-menu2 {
+    margin-left: -160px;
+}
+.content-menu li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    color: rgba(221, 217, 217, 0.849);
+    transition: all 40ms;
+    cursor: pointer;
+}
+.content-menu li:hover {
+    transform: translateY(50px);
+    background: rgba(0, 0, 0, 0.5);
+}
+.content-menu li span {
+    font-size: 50px;
+}
+.content-menu li h4 {
+    font-weight: 100;
+    transform: translateY(18px) translateX(-140px);
+    transition: all 350ms;
+}
+.icon1 {
+    color: #BA7404;
+}
+.icon2 {
+    color: #75EACC;
+}
+.icon3 {
+    color: #75EACC;
+}
+.icon4 {
+    color: #75EACC;
+}
+.icon5 {
+    color: #75EACC;
+}
+.content-menu:hover .text1 {
+    transform: translateX(0px);
+    transition: all 100ms;
+}
+.content-menu:hover .text2 {
+    transform: translateX(0px);
+    transition: all 200ms;
+}
+.content-menu:hover .text3 {
+    transform: translateX(0px);
+    transition: all 300ms;
+}
+.content-menu:hover .text4 {
+    transform: translateX(0px);
+    transition: all 400ms;
+}
+.content-menu:hover .text5 {
+    transform: translateX(0px);
+    transition: all 500ms;
+}

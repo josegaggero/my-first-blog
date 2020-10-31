@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Materilize | Carrousel y Media</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+
+    <link rel="stylesheet" href="{% static 'Proyecto_web/css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'Proyecto_web/css/estilos69.css'%}">
+
+</head>
+
+<body background="{% static 'Proyecto_web/img/Fondo.jpg'%}">
+
+
+
+
+    <header><span class="lnr lnr-menu show"></span></header>
+    <main>
+        <div class="content-menu">
+            <a href="main1.html">
+                <li><span class="lnr lnr-home icon1"></span>
+
+                    <h4 class="text1">Inicio</h4>
+
+                </li>
+            </a>
+            <a href="{% url 'paises' %}">
+                <li><span class="lnr lnr-earth icon2"></span>
+                    <h4 class="text2">Paises</h4>
+                </li>
+            </a>
+
+            <li><span class="lnr lnr-book icon3"></span>
+                <h4 class="text3">Recetas</h4>
+            </li>
+            <a href="galeria.html">
+                <li><span class="lnr lnr-picture icon4"></span>
+                    <h4 class="text4">Galeria</h4>
+                </li>
+            </a>
+            
+            <a href= "{% url 'formulario_inicio' %}">
+                <li>
+
+                    <span class="lnr lnr-user icon5"></span>
+                    <h4 class="text5">Login</h4>
+
+                </li>
+            </a>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h2 class="center-align titulo">Recetas</h2>
+                    <div class="carousel center-align">
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Tacos</h2>
+                            <div class="linea-division"></div>
+
+                            <p class="sabor">MÃ©xico</p>
+                            <img src="{% static 'Proyecto_web/img/Tacos1.jpg'%}" alt="">
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Hamburguesa</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">Estados Unidos</p>
+                            <img src="{% static 'Proyecto_web/img/hamburguesa.jpg'%}" alt="">
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Pizza</h2>
+                            <div class="linea-division"></div>
+                            <a href="italia.html">
+                                <p class="sabor">Italia</p>
+                            </a>
+                            <img src="{% static 'Proyecto_web/img/pasta2.jpg'%}" alt="">
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Sopaipillas</h2>
+                            <div class="linea-division"></div>
+                            <a href="chile.html">
+                                <p class="sabor">Chile</p>
+                            </a>
+                            <img src="{% static 'Proyecto_web/img/sopaipillas.jpg'%}" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Paella</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">EspaÃ±a</p>
+                            <img src="{% static 'Proyecto_web/img/Paella.jpg'%}" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <img style="float:right; margin:2rem; height:450px; width:520px; margin:auto" src="{% static 'Proyecto_web/img/mundo1.jpg'%}">
+                <h1 class="tituloo">QUIÃ‰NES SOMOS</h1>
+
+                <h5>
+                    <div class="caja"><br>Esta pÃ¡gina Web estÃ¡ destinada a ser un lugar de encuentro para los amantes de la cocina del mundo. Nos presenta las recetas de los platos mÃ¡s famosos de distintos paÃ­ses y nos deja espacio para colaborar con nuestras propias recetas
+                        favoritas.â€‹ Los invitamos a iniciar este viaje gastronÃ³mico por el mundo. Buen provecho</div>
+                </h5>
+
+
+            </div>
+    </main>
+    <footer id="contact">
+        <p class="hero_header">RECETAS DEL MUNDO</p>
+        <div class="button">REGISTRATE </div>
+    </footer>
+    <!-- Copyrights Section -->
+    <div class="copyright">&copy;2020 - <strong>JP</strong></div>
+    </div>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+
+
+
+    <script src="{% static 'Proyecto_web/js/main.js'%} "></script>
+    <script src="{% static 'Proyecto_web/js/script.js'%} "></script>
+
+
+</body>
+
+</html>

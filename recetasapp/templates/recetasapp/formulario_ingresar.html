@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login </title>
+    <link rel="stylesheet" href="{% static 'Proyecto_web/css/ingresar.css'%}">
+    
+
+</head>
+
+<body background="{% static 'Proyecto_web/img/2.jpg'%}">
+
+    <form action="index.html" class="form-box animated fadeInUp">
+        <h1 class="form-title">Ingresar</h1>
+        <input type="text" placeholder="Username" autofocus>
+        <input type="password" placeholder="Password">
+        <button type="submit">
+            Ingresar
+        </button>
+        <a href="{% url 'nueva' %}">Crear Cuenta</a>
+        
+    </form>
+</body>
+
+</html>

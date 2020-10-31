@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'Proyecto_web/css/chile.css'%}">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Chile </title>
+</head>
+
+<body>
+
+    <div class="logo logo_main">Recetas del Mundo</div>
+
+    <div class="nav">
+        <div class="wrap">
+            <div class="logo logo_small">MENU</div>
+            <nav>
+                <ul>
+                    <li><a href="main1.html">Inicio</a></li>
+                    <li><a href="Login2.html">Ingresar</a></li>
+                    <li><a href="index.html">Recetas</a></li>
+                    <li><a href="#">Quienes Somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Chile y su gastronomía </h1>
+        <hr> <br>
+        <br>
+        <img style="float:right; margin:10px;" src="{% static 'Proyecto_web/img/chile1.png'%}">La gastronomÃ­a de Chile nace de la mezcla entre la tradiciÃ³n indÃ­gena y el aporte colonial espaÃ±ol, combinando sus alimentos, costumbres y hÃ¡bitos culinarios.â€‹ A lo largo del tiempo,
+        ha tenido aportes de cocinas europeas por parte de inmigrantes, como la alemana e italiana; sin embargo, en el siglo XX tuvo una importante y marcada influencia de la cocina francesa. Estos elementos conformaron lo que se conoce como cocina criolla
+        chilena, que destaca por sus variados sabores, ingredientes y colores siguiendo de diversidad geogrÃ¡fica del paÃ­s,â€‹ acompaÃ±ada de bebidas alcohÃ³licas como el pisco y el vino chilenos.
+
+    </div>
+
+    <i class="fas fa-ellipsis-v btn-menu"></i>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <h1 class="title">Recetas tí­picas chilenas</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="{% static 'Proyecto_web/img/sopaipillas.jpg'%}" alt="">
+            <h4>Sopaipillas</h4>
+            <p>Masa frita en base a zapallo, especial para los dí­as de lluvia.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'Proyecto_web/img/pebre.jpg'%}" alt="">
+            <h4>Pebre</h4>
+            <p>Salsa tipo adobo ideal para acompaÃ±ar asados, choripán y otros platos criollos.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'Proyecto_web/img/porotos.jpg'%}" alt="">
+            <h4>Porotos con riendas</h4>
+            <p>Contundente plato de fondo en base a porotos, tallarines, zapallo y chorizo.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+    </div>
+    <div class="container">
+
+        <div class="card">
+            <img src="{% static 'Proyecto_web/img/empanadaas2.jpg'%}" alt="">
+            <h4>Empanadas</h4>
+            <p>Fina masa rellena con una mezcla de carne y cebolla, es un plato infaltable en las fiestas patrias.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'Proyecto_web/img/charki.jpg'%}" alt="">
+            <h4>CharquicÃ¡n</h4>
+            <p>Plato de origen mapuche que mezcla carne y verduras, originalmente se preparaba con charqui.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+        <div class="card">
+            <img src="{% static 'Proyecto_web/img/mote.jpg'%}" alt="">
+            <h4>Mote con huesillos</h4>
+            <p>Bebida veraniega tradicional, sin alcohol, que se compone de duraznos deshidratados cocidos con mote de trigo.</p>
+            <a href="#">Ver receta</a>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
