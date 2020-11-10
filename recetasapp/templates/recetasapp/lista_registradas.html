@@ -8,8 +8,8 @@
 <body>
     <h1>Lista de las usuario registradas </h1>
     <ol>
-        {% for usuario in lista1 %}
-        <li>Nombre Usuario : |{{usuario.nombre_usuario}}| ----- Clave : |{{usuario.clave}}| </li>
+        {% for lista in lista1 %}
+        <li>Nombre Usuario : |{{lista.mail}}| ----- Clave : |{{lista.clave}}| </li>
         {% endfor %}
     </ol>
     

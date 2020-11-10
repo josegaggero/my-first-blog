@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Proyecto_web/css/ingresar2.css'%}">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form" method="POST" class="form-box animated fadeInUp">
+        <h1 class="form-title">Cambiar contraseña</h1>
+
+        {% csrf_token %}
+        <p><label for="id_contraseña1">Contraseña1:</label> <textarea name="contraseña1" cols="20" rows="2" maxlength="20" required id="id_contraseña1">
+</textarea></p>
+<p><label for="id_contraseña2">Repetir contraseña:</label> <textarea name="contraseña2" cols="20" rows="2" maxlength="20" required id="id_contraseña2">
+</textarea></p> 
+        
+        <button class="boton" type="submit">Cambiar</button>
+       
+    </form>
+  
+</body>
+</html>

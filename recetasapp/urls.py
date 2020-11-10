@@ -8,6 +8,14 @@ urlpatterns = [
     path('paises', views.iniciar, name='paises'),
     path('chile', views.chile, name='chile'),
     path('inicio', views.inicio, name='inicio'),
-    path('formulario_inicio', views.formulario_inicio, name='formulario_inicio')
+    ###################
+    path('formulario', views.formulario_inicio, name='formulario_inicio'),
+    ###########
+    path('lista_contraseña' ,views.lista_contraseña, name='lista_contraseña'),
+    path('forms', views.contraseña, name='forms'),
+    #######Reecetas######
+    path('lista_recetas' , views.lista_recetas, name='lista_recetas'),
+    path('recetas1',views.recetas )
+    
     
 ]

@@ -17,7 +17,7 @@
             <h2>Crear cuenta</h2>
            </div>
         
-         <input type="hidden" name="csrfmiddlewaretoken" value="N9gLLruLRO5ADWmQpe3CKKPVdZXrOb44mbn0N2by5iUtrAZVcMgALnpQE5bb2NzD">
+           {% csrf_token %}
 
          
          <br>
@@ -44,7 +44,7 @@
          
 
          <div  class="form-control">
-         <p><label for="id_pais"> Pais:</label> <input  class="form-control"type="text" size="30" name="pais" " maxlength="15" required id="id_pais">
+         <p><label for="id_pais"> Contraseña:</label> <input  class="form-control"type="text" size="30" name="pais" " maxlength="15" required id="id_pais">
          </input></p>
         </div>
 

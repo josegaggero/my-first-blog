@@ -1,0 +1,9 @@
+
+
+{% block content %}
+    <form id="form" method="POST" class="form-box animated fadeInUp  enctype="multipart/form-data" ">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button class="boton" type="submit">Cambiar</button>
+    </form>
+{% endblock %}
